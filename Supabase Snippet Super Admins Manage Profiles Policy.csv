@@ -1,0 +1,17 @@
+schemaname,tablename,policyname,permissive,roles,cmd,qual,with_check
+public,profiles,Admins can view all profiles,PERMISSIVE,{public},SELECT,"(( SELECT profiles_1.role
+   FROM profiles profiles_1
+  WHERE (profiles_1.id = auth.uid())) = 'super_admin'::user_role)",null
+public,profiles,AllowAllForAzad,PERMISSIVE,{public},ALL,((auth.jwt() ->> 'email'::text) = 'azadurm@gmail.com'::text),null
+public,profiles,Lop_Free_Update_Admin,PERMISSIVE,{public},UPDATE,(((auth.jwt() -> 'user_metadata'::text) ->> 'role'::text) = 'super_admin'::text),null
+public,profiles,Lop_Free_Update_Manager,PERMISSIVE,{public},UPDATE,(((auth.jwt() -> 'user_metadata'::text) ->> 'role'::text) = 'manager'::text),(role <> 'super_admin'::user_role)
+public,profiles,Lop_Free_View,PERMISSIVE,{public},SELECT,"(((auth.jwt() -> 'user_metadata'::text) ->> 'role'::text) = ANY (ARRAY['super_admin'::text, 'manager'::text]))",null
+public,profiles,Only super_admin can update roles,PERMISSIVE,{public},UPDATE,"(auth.uid() IN ( SELECT profiles_1.id
+   FROM profiles profiles_1
+  WHERE (profiles_1.role = 'super_admin'::user_role)))",null
+public,profiles,Profiles are viewable by everyone,PERMISSIVE,{public},SELECT,true,null
+public,profiles,Public profiles are viewable by everyone,PERMISSIVE,{public},SELECT,true,null
+public,profiles,Super Admins can manage all profiles,PERMISSIVE,{authenticated},ALL,"(( SELECT profiles_1.role
+   FROM profiles profiles_1
+  WHERE (profiles_1.id = auth.uid())) = 'super_admin'::user_role)",null
+public,profiles,Users can view their own profile,PERMISSIVE,{public},SELECT,(auth.uid() = id),null
