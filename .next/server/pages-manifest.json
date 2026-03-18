@@ -1,0 +1,17 @@
+{
+  "/": "pages/index.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/admin": "pages/admin.html",
+  "/admin/provision-manager": "pages/admin/provision-manager.html",
+  "/admin/users": "pages/admin/users.html",
+  "/api/admin/provision-manager": "pages/api/admin/provision-manager.js",
+  "/dashboard/company": "pages/dashboard/company.html",
+  "/dashboard/seeker": "pages/dashboard/seeker.html",
+  "/login": "pages/login.html",
+  "/seeker/dashboard": "pages/seeker/dashboard.html",
+  "/signup": "pages/signup.html",
+  "/test-db": "pages/test-db.html",
+  "/404": "pages/404.html"
+}
