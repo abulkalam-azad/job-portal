@@ -1,4 +1,4 @@
-import ManagerProvisionForm from '@/components/ManagerProvisionForm';
+import ManagerProvisionForm from '../../components/ManagerProvisionForm';
 
 export default function ProvisionPage() {
   return (
