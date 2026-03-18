@@ -1,4 +1,4 @@
-import ManagerProvisionFrom from '../../components/ManagerProvisionForm'; 
+import ManagerProvisionForm from '../../components/ManagerProvisionForm';
 export default function ProvisionPage() {
   return (
     <div className="p-8">
