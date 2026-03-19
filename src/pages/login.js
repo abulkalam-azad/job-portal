@@ -45,14 +45,14 @@ export default function Login() {
 
       // ৩. রোল অনুযায়ী রিডাইরেক্ট করা
       if (finalRole === 'super_admin' || finalRole === 'manager') {
-        router.push('/admin');
+        router.push('/dashboard/dashboard');
       } else if (finalRole === 'company') {
         router.push('/dashboard/company');
       } else if (finalRole === 'job_seeker') {
         router.push('/dashboard/seeker');
       } else {
         // fallback if role is missing or undefined
-        router.push('/');
+        router.push('/admin');
       }
     }
   }; // End of handleLogin
