@@ -1,0 +1,1088 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home - Chess online - Dealsbe</title>
+<meta property="og:title" content="Home - Chess online - Dealsbe" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="chess, chess multiplayer, chess with friends, best online chess, chess app" />
+<meta property="article:tag" content="chess"/>
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://dealsbe.com/img/logo_chess.png">
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta name="theme-color" content="#f8f8ff" />
+<meta name="description" content="Let's play chess with anyone all over the world!" />
+<meta property="og:description" content="Let's play chess with anyone all over the world!" />
+<meta property="og:url" content="https://dealsbe.com" />
+<meta property="fb:app_id" content="562283911060533"/>
+<meta name="csrf-token" content="bNI3JTeMM8EeUVuYTUzOhLlU8S9v9SUAGvpZot80">
+<meta name="twitter:card" content="summary" />
+<link rel="apple-touch-icon" href="https://dealsbe.com/img/app-icons/apple-touch-icon-iphone-chess.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://dealsbe.com/img/app-icons/apple-touch-icon-ipad-chess.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://dealsbe.com/img/app-icons/apple-touch-icon-iphone-retina-chess.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://dealsbe.com/img/app-icons/apple-touch-icon-ipad-retina-chess.png">
+<link rel="icon" sizes="32x32" href="https://dealsbe.com/img/favicon-32x32-chess.png" />
+<link rel="stylesheet" href="https://dealsbe.com/css/fa/css/all.min.css?v=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.1/lumen/bootstrap.min.css" integrity="sha512-uAljZxlcZbLdYSGR8t22LQ+F04wAPspaV9/rhnCSPI1YCTOzpcl56CW2fSVDIyET8R2KlSkNqclrHkzM9jfsIA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://dealsbe.com/css/index.css?v=71" rel="stylesheet"> <!--  Main CSS -->
+<link rel="manifest" href="https://dealsbe.com/manifest.webmanifest?v=1">
+<link rel="canonical" href="https://dealsbe.com" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1987311378057871"
+     crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-04MZV72B17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-04MZV72B17');
+</script>
+  </head>
+  <body class="home">
+    <header class="site-header shadow-lg sticky-top">
+  <div class="container mx-auto">
+    <div class="row align-items-center">
+      <a class="navbar-brand mr-auto my-0" href="https://dealsbe.com"><img src="https://dealsbe.com/img/app-icons/logo-chess.png" class="chess-logo" alt="chess logo"><h1 class="d-inline" style="font-size: inherit !important;"><strong>Chess</strong></h1><span id="header-status"></span></a>
+      <div class="menu-toggle open" title="Menu"></div>
+      <nav class="navbar py-0">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="home" href="https://dealsbe.com"><i class="fal fa-home-lg-alt"></i> Home</a>
+          </li>
+          <li class="dropdown">
+            <a id="dashboardDropdown" class="dashboard room trophy puzzle setup thi-dau stopPromotion dropdown-toggle" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-expanded="false"><i class="far fa-trophy-alt"></i> Play</a>
+            <div class="dropdown-menu dropdown-menu-right shadow" aria-labelledby="dashboardDropdown">
+              <a class="dropdown-item" href="https://dealsbe.com/rooms"><i class="far fa-list-alt"></i> Rooms</a>
+              <a class="dropdown-item" href="https://dealsbe.com/tournament"><i class="far fa-list"></i> Tournament</a>
+              <a class="dropdown-item" href="https://dealsbe.com/ranking"><i class="far fa-star"></i> Ranking</a>
+              <a class="dropdown-item" href="https://dealsbe.com/search"><i class="far fa-search"></i> Player search</a>
+              <a class="dropdown-item" href="https://dealsbe.com/history"><i class="far fa-archive"></i> History</a>
+              <a class="dropdown-item" href="https://dealsbe.com/puzzle"><i class="far fa-puzzle-piece"></i> Puzzle</a>
+            </div>
+          </li>
+          <li>
+            <a class="contact" href="https://dealsbe.com/contact-us"><i class="fal fa-envelope"></i> Contact Us</a>
+          </li>
+                                    <li class="nav-item">
+                <a class="login" href="https://dealsbe.com/login"><i class="far fa-sign-in"></i> Login</a>
+              </li>
+            
+                          <li class="nav-item">
+                <a class="register" href="https://dealsbe.com/register"><i class="far fa-user-plus"></i> Register</a>
+              </li>
+                              </ul>
+      </nav>
+    </div>
+  </div>
+</header>    <main>
+      <div class="container-fluid game px-0" itemscope itemtype="http://schema.org/Game">
+        <div class="container p-3">
+          <audio id="nuoc-co">
+            <source src="https://dealsbe.com/sound/nuocCo.mp3" type="audio/mpeg">
+            <source src="https://dealsbe.com/sound/nuocCo.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <audio id="het-tran">
+            <source src="https://dealsbe.com/sound/hetTran.mp3" type="audio/mpeg">
+            <source src="https://dealsbe.com/sound/hetTran.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+                      <div class="dropdown mx-auto text-center mb-3">
+              <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="hostDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fad fa-play-circle" data-toggle="tooltip" data-placement="bottom" title="Play now"></i> Play online
+              </button>
+              <div class="dropdown-menu" aria-labelledby="hostDropdown" id="create-room" data-room="66fb2b9f1e11d41c38e199ddc8c1416b" data-url="https://dealsbe.com/room/66fb2b9f1e11d41c38e199ddc8c1416b">
+                                <a data-toggle="tooltip" data-placement="bottom" title="Login to enter tournament" class="dropdown-item thi-dau" style="cursor: pointer !important;" href="https://dealsbe.com/login"><i class="fas fa-sign-in text-dark"></i> Login</a>
+                                <a data-toggle="tooltip" data-placement="bottom" title="Play without password" id="create-public-room" class="dropdown-item" style="cursor: pointer !important;"><i class="fas fa-globe-asia text-dark"></i> Public</a>
+                <a data-toggle="tooltip" data-placement="bottom" title="Play with password" id="create-private-room" class="dropdown-item" style="cursor: pointer !important;"><i class="fas fa-lock text-dark"></i> Private</a>
+                                <a data-toggle="tooltip" data-placement="bottom" title="Waiting list" id="room-list" class="dropdown-item" style="cursor: pointer !important;" href="https://dealsbe.com/rooms"><i class="fas fa-th-list text-dark"></i> Rooms' list</a>
+              </div>
+            </div>
+                              <div id="chess-board" class="mx-auto h-auto"></div>
+          <div id="promotion-dialog">
+            <ol id="promote-to">
+              <li class="ui-state-default"><span class="piece-name">q</span><img src="#" alt="q" class="promotion-piece-q promotion-piece" /></li>
+              <li class="ui-state-default"><span class="piece-name">r</span><img src="#" alt="r" class="promotion-piece-r promotion-piece" /></li>
+              <li class="ui-state-default"><span class="piece-name">n</span><img src="#" alt="n" class="promotion-piece-n promotion-piece" /></li>
+              <li class="ui-state-default"><span class="piece-name">b</span><img src="#" alt="b" class="promotion-piece-b promotion-piece" /></li>
+            </ol>
+          </div>
+                    <p class="w-100 text-center my-3">
+            <span class="d-inline-block rounded" id="game-status"></span>
+          </p>
+          <p class="w-100 text-center mt-2">
+            <span class="rounded d-none" id="game-over" data-toggle="tooltip" data-placement="top" data-original-title="Press 'START' to play with real person"><i class="fad fa-flag-checkered"></i> GAME OVER</span>
+          </p>
+          <h3 class="text-center my-2">Playing with AI</h3>
+<h4 class="text-center my-2">Level: Normal</h4>
+<div class="dropup mx-auto text-center">
+  <button class="btn btn-lg btn-dark dropdown-toggle" type="button" id="levelDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fal fa-trophy"></i> Choose level
+  </button>
+  <div class="dropdown-menu" aria-labelledby="levelDropdown">
+    <a class="dropdown-item" href="https://dealsbe.com/newbie">Newbie</a>
+    <a class="dropdown-item" href="https://dealsbe.com/easy">Easy</a>
+    <a class="dropdown-item" href="https://dealsbe.com/normal">Normal</a>
+    <a class="dropdown-item" href="https://dealsbe.com/hard">Hard</a>
+    <a class="dropdown-item" href="https://dealsbe.com/hardest">Hardest</a>
+  </div>
+</div>
+          <div class="row">
+            <input type="hidden" name="FEN" id="FEN" />
+            <input type="hidden" name="piecesUrl" id="piecesUrl" value="https://dealsbe.com" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js" integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" integrity="sha256-tSRROoGfGWTveRpDHFiWVz+UXt+xKNe90wwGn25lpw8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js" integrity="sha512-RdSPYh1WA6BF0RhpisYJVYkOyTzK4HwofJ3Q7ivt/jkpW6Vc8AurL1R+4AUcvn9IwEKAPm/fk7qFZW3OuiUDeg==" crossorigin="anonymous"></script>
+<script src="https://dealsbe.com/js/jquery-ui/jquery-ui.min.js"></script>
+<script src="https://dealsbe.com/js/detect_adblock.js?v=1"></script>
+<script src="https://dealsbe.com/js/scripts.js?v=2"></script>
+<script src="https://dealsbe.com/js/manipulation.js"></script>
+<script src="https://dealsbe.com/js/chessboard.js?v=16"></script>
+<script src="https://dealsbe.com/js/chess.js?v=10"></script>
+<script>
+$.ajaxSetup({
+  headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  }
+});
+$('#create-public-room').on('click', function(e) {
+  e.preventDefault();
+  bootbox.prompt({
+    title: "Please create a name for your new Room:",
+    locale: 'en',
+    centerVertical: true,
+    closeButton: false,
+    maxlength: 32,
+    buttons: {
+      confirm: {
+        label: '<i class="fas fa-check"></i> Oki',
+        className: 'btn-light'
+      }
+    },
+    callback: function(roomName){
+      if (roomName != null) {
+        if (roomName.trim().length === 0 || roomName.length === 0) {
+          bootbox.alert({
+            message: "Please enter a name.",
+            size: 'small',
+            locale: 'en',
+            centerVertical: true,
+            closeButton: false,
+            buttons: {
+              ok: {
+                className: 'btn-light'
+              }
+            },
+            callback: function () {
+              $('#create-public-room').trigger('click');
+            }
+          });
+        } else {
+          $.ajax({
+            type: "POST",
+            url: 'https://dealsbe.com/api/createRoom',
+            data: {
+              'room-code': $('#create-room').attr('data-room'),
+              'room-name': roomName,
+              'FEN': 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
+              'pass': ''
+            },
+            dataType: 'text'
+          }).done(function() {
+            $('#AdSenseModal').attr('data-url', $('#create-room').attr('data-url')).modal('show');
+            $('#adModalCloseBtn').attr('data-original-title', $('#AdSenseModal').attr('data-url'));
+            $('#adModalCloseBtn').tooltip();
+          });
+        }
+      }
+    }
+  });
+});
+$('#create-private-room').on('click', function(e) {
+  e.preventDefault();
+  bootbox.prompt({
+    title: "Please create a name for your new Room:",
+    locale: 'en',
+    centerVertical: true,
+    closeButton: false,
+    maxlength: 32,
+    buttons: {
+      confirm: {
+        label: '<i class="fas fa-check"></i> Oki',
+        className: 'btn-light'
+      }
+    },
+    callback: function(roomName){
+      if (roomName != null) {
+        if (roomName.trim().length === 0 || roomName.length === 0) {
+          bootbox.alert({
+            message: "Please enter a name.",
+            size: 'small',
+            locale: 'en',
+            centerVertical: true,
+            closeButton: false,
+            buttons: {
+              ok: {
+                className: 'btn-light'
+              }
+            },
+            callback: function () {
+              $('#create-private-room').trigger('click');
+            }
+          });
+        } else {
+          bootbox.prompt({
+            title: "Please create a password for your new Room!",
+            locale: 'en',
+            centerVertical: true,
+            closeButton: false,
+            buttons: {
+              confirm: {
+                label: '<i class="fas fa-check"></i> Create',
+                className: 'btn-light'
+              }
+            },
+            callback: function(password){
+              console.log('Password is: ' + password);
+              if (password != null) {
+                if (password.trim().length === 0 || password.length === 0) {
+                  bootbox.alert({
+                    message: "Please enter a password. Then send it to your friends.",
+                    size: 'small',
+                    locale: 'en',
+                    centerVertical: true,
+                    closeButton: false,
+                    buttons: {
+                      ok: {
+                        className: 'btn-light'
+                      }
+                    },
+                    callback: function () {
+                      $('#create-private-room').trigger('click');
+                    }
+                  });
+                } else {
+                  $.ajax({
+                    type: "POST",
+                    url: 'https://dealsbe.com/api/createRoom',
+                    data: {
+                      'room-code': $('#create-room').attr('data-room'),
+                      'room-name': roomName,
+                      'FEN': 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
+                      'pass': password
+                    },
+                    dataType: 'text'
+                  }).done(function() {
+                    $('#AdSenseModal').attr('data-url', $('#create-room').attr('data-url')).modal('show');
+                    $('#adModalCloseBtn').attr('data-original-title', $('#AdSenseModal').attr('data-url'));
+                    $('#adModalCloseBtn').tooltip();
+                  });
+                }
+              }
+            }
+          });
+        }
+      }
+    }
+  });
+});
+function showNewRoom(newCode) {
+  $.ajax({
+    type: "GET",
+    url: 'https://dealsbe.com/api/getNewRoom',
+    dataType: "json"
+  }).done(function(data){
+    if (data.room.code != '' && data.room.code != newCode) {
+      var htmlContent = `
+        <button id="join-room" class="btn btn-light text-dark"><i class="fas fa-sign-in-alt"></i> Play now</button>
+        <button id="cancel-room" class="btn btn-light text-dark"><i class="fas fa-times"></i> Cancel</button>
+      `;
+      var dialog = bootbox.dialog({
+        title: 'Room "' + data.room.name + '" newly created!',
+        message: htmlContent,
+        locale: 'en',
+        size: 'small',
+        centerVertical: true,
+        closeButton: false
+      });
+      dialog.find("#join-room").click(function() {
+        window.location.href = "https://dealsbe.com" + '/room/' + data.room.code;
+      });
+
+      // Handle "Cancel" button click
+      dialog.find("#cancel-room").click(function() {
+        dialog.modal("hide");
+      });
+    }
+  });
+}
+function showLatestRoom(offset, newCode) {
+  $.ajax({
+    type: "POST",
+    url: 'https://dealsbe.com/api/getLatestRoom',
+    data: {
+      'offset': offset
+    },
+    dataType: "json"
+  }).done(function(data){
+    if (data.room.code != '' && data.room.code != newCode) {
+      var htmlContent = `
+        <button id="join-room" class="btn btn btn-dark text-light"><i class="fas fa-sign-in-alt"></i> Play now</button>
+        <button id="cancel-room" class="btn btn btn-light text-dark"><i class="fas fa-times"></i> Cancel</button>
+      `;
+      var dialog = bootbox.dialog({
+        title: 'Room "' + data.room.name + '" newly created!',
+        message: htmlContent,
+        locale: 'en',
+        size: 'small',
+        centerVertical: true,
+        closeButton: false
+      });
+      dialog.find("#join-room").on('click', function() {
+        if (data.color == 'white') {
+          dialog.modal("hide");
+          dialog.on('hidden.bs.modal', function (event) {
+            $('#AdSenseModal').attr('data-url', "https://dealsbe.com" + '/room/' + data.room.code + '/white').modal('show');
+            $('#adModalCloseBtn').attr('data-original-title', "https://dealsbe.com" + '/room/' + data.room.code + '/white');
+            $('#adModalCloseBtn').tooltip();
+          })
+          // window.location.href = "https://dealsbe.com" + '/room/' + data.room.code;
+        } else if (data.color == 'black') {
+          dialog.modal("hide");
+          dialog.on('hidden.bs.modal', function (event) {
+            $('#AdSenseModal').attr('data-url', "https://dealsbe.com" + '/room/' + data.room.code + '/black').modal('show');
+            $('#adModalCloseBtn').attr('data-original-title', "https://dealsbe.com" + '/room/' + data.room.code + '/black');
+            $('#adModalCloseBtn').tooltip();
+          })
+          // window.location.href = "https://dealsbe.com" + '/room/' + data.room.code + '/guest';
+        }
+      });
+
+      // Handle "Cancel" button click
+      dialog.find("#cancel-room").on('mouseenter mouseleave', function(){
+        // $(this).toggleClass('btn-light btn-dark');
+      }).on('click', function() {
+        dialog.modal("hide");
+        dialog.on('hidden.bs.modal', function (event) {
+          if (offset < ) {
+            showLatestRoom(offset + 1, data.room.code);
+          } else if (offset ==  && !window.location.href.toLowerCase().includes('rooms')) {
+            bootbox.confirm({
+              message: "Go to Rooms'list!",
+              size: 'small',
+              locale: 'en',
+              centerVertical: true,
+              closeButton: false,
+              buttons: {
+                confirm: {
+                  className: 'btn btn-dark text-light rooms-list'
+                },
+                cancel: {
+                  className: 'btn btn-light text-dark text-light'
+                }
+              },
+              callback: function (result) {
+                if (result == true) {
+                  $('#AdSenseModal').attr('data-url', "https://dealsbe.com/rooms").modal('show');
+                  $('#adModalCloseBtn').attr('data-original-title', "https://dealsbe.com/rooms");
+                  $('#adModalCloseBtn').tooltip();
+                  // window.location.href = "https://dealsbe.com/rooms";
+                }
+              }
+            });
+          }
+        })
+      });
+    }
+  });
+}
+// setTimeout(function() {
+//   showLatestRoom(0, '');
+// }, 2500);
+$('#random-room').on('click auxclick', function(e) {
+  e.preventDefault();
+  $('#AdSenseModal').attr('data-url', $(this).attr('href')).modal('show');
+});
+$('#room-list').on('click auxclick', function(e) {
+  e.preventDefault();
+  $('#AdSenseModal').attr('data-url', $(this).attr('href')).modal('show');
+});
+$('#copy-url-white').on('click', function() {
+  copyToClipboard('#url-white');
+  selectText('#url-white');
+  $(this).tooltip('update');
+});
+$('#copy-url-black').on('click', function() {
+  copyToClipboard('#url-black');
+  selectText('#url-black');
+  $(this).tooltip('update');
+});
+$('#room-code').on('click', function() {
+  copyToClipboard('#room-code-input');
+  selectText('#room-code-input');
+  $(this).find('span').tooltip('update');
+});
+$('#url').on('click', function() {
+  copyToClipboard('#url');
+  selectText('#url')
+  $(this).find('span').tooltip('update');
+});
+const nuocCo = document.getElementById("nuoc-co");
+const hetTran = document.getElementById("het-tran");
+
+$(function () {
+  $('.dropdown-toggle').dropdown();
+  if (!Modernizr.touch) {
+    $('#volumeSwitch').attr('title', 'Click here to switch on/off volume');
+    $('#tourBtn').attr('title', 'Click here to take a website tour');
+    $('[data-toggle="tooltip"]').tooltip();
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+  }
+  $('.dropdown-item').each(function() {
+    $(this).on('mouseenter mouseleave', function() {
+      $(this).find('i').toggleClass('fad fas');
+    });
+  });
+  let activeNavLinkSelectors = 'body.home header.site-header a.home, body.setup header.site-header a.setup, body.about header.site-header a.about, body.bmi header.site-header a.bmi, body.game header.site-header a.game, body.room header.site-header a.room, body.news header.site-header a.news, body.contact header.site-header a.contact';
+  $(activeNavLinkSelectors).each(function() {
+    $(this).find('i').removeClass('far').addClass('fas');
+  });
+  $('header.site-header ul.navbar-nav').on('mouseenter mouseleave', function() {
+    $(activeNavLinkSelectors).each(function() {
+      $(this).find('i').toggleClass('far fas');
+    });
+  });
+  $('header.site-header li > a').each(function() {
+    $(this).on('mouseenter mouseleave', function() {
+      $(this).find('i').toggleClass('far fas');
+    });
+  });
+});
+
+// var is_iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+// if (is_iOS) {
+//   document.addEventListener('touchstart touchend touchcancel touchmove', event => {
+//     event.preventDefault();
+//   }, {passive: false});
+// }
+document.addEventListener('touchstart touchend', function(event) {
+  event.preventDefault();
+});
+document.oncontextmenu = function(e){
+  stopEvent(e);
+}
+function stopEvent(event){
+  if(event.preventDefault != undefined)
+    event.preventDefault();
+  if(event.stopPropagation != undefined)
+    event.stopPropagation();
+}
+window.onload = () => {
+  'use strict';
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker
+    .register('https://dealsbe.com/serviceWorker.js')
+    .then(function(reg) {
+      console.log("Yes, it did.");
+    }).catch(function(err) {
+      console.log("No it didn't. This happened:", err)
+    });
+  }
+}
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e73268767defa7b"></script>
+            <p class="w-100 text-center mt-4">
+  
+  
+  <a id="undo" class="w-25 btn btn-dark btn-lg"><i class="fad fa-undo-alt"></i> Undo</a>
+</p>
+<p class="w-100 text-center mt-4">
+  <a class="w-25 btn btn-dark btn-lg" href="https://dealsbe.com/play-alone"><i class="fad fa-user"></i> Play alone</a>
+  <a id="reset" class="w-25 btn btn-light btn-lg"><i class="fad fa-redo-alt"></i> Restart</a>
+</p>
+<script>
+var board = null
+var game = new Chess()
+
+var promoting = false;
+var piece_theme = $('#piecesUrl').val() + '/img/chesspieces/alpha/{piece}.png';
+var promotion_dialog = $('#promotion-dialog');
+var promote_to = '';
+var whiteSquareGrey = '#a9a9a9'
+var blackSquareGrey = '#696969'
+
+function removeGreySquares () {
+  $('#chess-board .square-55d63').css('background', '')
+}
+
+function greySquare (square) {
+  var $square = $('#chess-board .square-' + square)
+
+  var background = whiteSquareGrey
+  if ($square.hasClass('black-3c85d')) {
+    background = blackSquareGrey
+  }
+
+  $square.css('background', background)
+}
+
+function onDragStart (source, piece, position, orientation) {
+  if (game.in_checkmate() === true || game.in_draw() === true || piece.search(/^b/) !== -1) {
+    return false;
+  }
+}
+
+function makeBestMove() {
+  var aiWorker = new Worker('/js/aiWorker.js');
+  var bestMove;
+  aiWorker.postMessage({
+    fen: game.fen(),
+    depth: 3
+  });
+  aiWorker.onmessage = function(e) {
+    bestMove = e.data;
+    console.log(bestMove);
+    game.ugly_move(bestMove);
+    board.position(game.fen());
+    nuocCo.play();
+    updateStatus();
+  }
+}
+
+function onDrop (source, target) {
+  move_cfg = {
+    from: source,
+    to: target,
+    promotion: 'q'
+  };
+  var move = game.move(move_cfg);
+  // illegal move
+  if (move === null) {
+    return 'snapback';
+  } else {
+    game.undo(); //move is ok, now we can go ahead and check for promotion
+  }
+ 
+  // is it a promotion?
+  var source_rank = source.substring(2,1);
+  var target_rank = target.substring(2,1);
+  var piece = game.get(source).type;
+
+  if (piece === 'p' &&
+      ((source_rank === '7' && target_rank === '8') || (source_rank === '2' && target_rank === '1'))) {
+        promoting = true;
+
+    // get piece images
+    $('.promotion-piece-q').attr('src', getImgSrc('q'));
+    $('.promotion-piece-r').attr('src', getImgSrc('r'));
+    $('.promotion-piece-n').attr('src', getImgSrc('n'));
+    $('.promotion-piece-b').attr('src', getImgSrc('b'));
+
+    //show the select piece to promote to dialog
+    promotion_dialog.dialog({
+      modal: true,
+      height: 46,
+      width: 184,
+      resizable: true,
+      draggable: false,
+      close: onDialogClose,
+      closeOnEscape: false,
+      dialogClass: 'noTitleStuff'
+    }).dialog('widget').position({
+      of: $('#chess-board'),
+      my: 'middle middle',
+      at: 'middle middle',
+    });
+    //the actual move is made after the piece to promote to
+    //has been selected, in the stop event of the promotion piece selectable
+    return;
+  }
+
+  // no promotion, go ahead and move
+  makeMove(game, move_cfg);
+  updateStatus()
+  // make random legal move for black
+  makeBestMove();
+}
+
+function getImgSrc(piece) {
+  return piece_theme.replace('{piece}', game.turn() + piece.toLocaleUpperCase());
+}
+
+var onDialogClose = function() {
+  // console.log(promote_to);
+  move_cfg.promotion = promote_to;
+  makeMove(game, move_cfg);
+}
+
+function makeMove(game, cfg) {
+  // see if the move is legal
+  var move = game.move(cfg);
+  // illegal move
+  if (move === null) return 'snapback';
+}
+
+// update the board position after the piece snap
+// for castling, en passant, pawn promotion
+function onMouseoverSquare (square, piece) {
+  // get list of possible moves for this square
+  var moves = game.moves({
+    square: square,
+    verbose: true
+  })
+
+  // exit if there are no moves available for this square
+  if (moves.length === 0) return
+
+  // highlight the square they moused over
+  greySquare(square)
+
+  // highlight the possible squares for this piece
+  for (var i = 0; i < moves.length; i++) {
+    greySquare(moves[i].to)
+  }
+}
+
+function onMouseoutSquare (square, piece) {
+  removeGreySquares()
+}
+
+function onSnapEnd () {
+  board.position(game.fen())
+  nuocCo.play();
+  updateStatus();
+  if (promoting) return;
+  promoting = false;
+}
+
+function updateBoard(board) {
+  board.position(game.fen(), false);
+  promoting = false;
+}
+
+function updateStatus () {
+  var status = ''
+
+  var moveColor = 'White'
+  if (game.turn() === 'b') {
+    moveColor = 'Black'
+  }
+
+  // checkmate?
+  if (game.in_checkmate()) {
+    status = moveColor + ' is in checkmate'
+  }
+
+  // draw?
+  else if (game.in_draw()) {
+    status = 'Drawn position'
+  }
+
+  // game still on
+  else {
+    status = moveColor + "'s turn to move"
+
+    // check?
+    if (game.in_check()) {
+      status += ', ' + moveColor + ' is in check'
+    }
+  }
+
+  $('#game-status').html(status);
+  $('#header-status').html(': '+status);
+  if (game.game_over()) {
+    hetTran.play();
+    $('#header-status').html(': '+status+' - Game over');
+    $('#game-over').removeClass('d-none').addClass('d-inline-block').html('<i class="fad fa-flag-checkered"></i> Game over');
+  }
+  if (game.fen().includes('resign')) {
+    $('#header-status').html(': '+status+' - Resigned');
+    $('#game-over').html('<i class="fad fa-flag-checkered"></i> Resigned');
+    $('#resign, #switch').addClass('disabled').attr('aria-disabled', true);
+    config.draggable = false;
+  }
+}
+
+var config = {
+  draggable: true,
+  position: 'start',
+  onDragStart: onDragStart,
+  onDrop: onDrop,
+  onMouseoutSquare: onMouseoutSquare,
+  onMouseoverSquare: onMouseoverSquare,
+  onSnapEnd: onSnapEnd,
+  showNotation: false
+}
+
+board = Chessboard('chess-board', config)
+$(window).resize(board.resize);
+
+updateStatus()
+$(document).ready(function() {
+  $('#FEN').val(game.fen());
+});
+$('#resign').on('click', function() {
+  game.load(game.fen() + ' resign');
+  updateStatus();
+});
+$('#undo').on('click', function(){
+  game.undo();
+  game.undo();
+  board.position(game.fen());
+  nuocCo.play();
+  updateStatus();
+});
+$('#reset').on('click', function() {
+  board.position('rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR');
+  game.load('rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1');
+  updateStatus();
+  $('#game-over').removeClass('d-inline-block').addClass('d-none');
+  $('#resign, #switch').removeClass('disabled').attr('aria-disabled', false);
+  config.draggable = true;
+});
+$('#switch').on('click', function(){
+  board.flip();
+  makeBestMove();
+});
+// init promotion piece dialog
+$("#promote-to").selectable({
+stop: function() {
+  $( ".ui-selected", this ).each(function() {
+    var selectable = $('#promote-to li');
+    var index = selectable.index(this);
+    if (index > -1) {
+      var promote_to_html = selectable[index].innerHTML;
+      var span = $('<div>' + promote_to_html + '</div>').find('span');
+      promote_to = span[0].innerHTML;
+    }
+    promotion_dialog.dialog('close');
+    $('.ui-selectee').removeClass('ui-selected');
+    updateBoard(board);
+    updateStatus();
+  });
+}
+});
+</script>
+                        <p class="w-100 text-center mt-2">
+              <a id="share-board" class="text-light mx-auto btn btn-dark btn-lg py-2" href="https://dealsbe.com/board"><i class="fad fa-share"></i> Share board</a>
+            </p>
+            <script>
+            function createRoom() {
+              $.ajax({
+                type: "POST",
+                url: 'https://dealsbe.com/api/hasRoomcode',
+                data: {
+                  'room-code': '66fb2b9f1e11d41c38e199ddc8c1416b'
+                },
+                dataType: 'text'
+              }).done(function(data){
+                if (data == 'no') {
+                  bootbox.prompt({
+                    title: "Please create a name for your new Room:",
+                    locale: 'en',
+                    centerVertical: true,
+                    closeButton: false,
+                    maxlength: 32,
+                    buttons: {
+                      confirm: {
+                        label: '<i class="fas fa-check"></i> Proceed',
+                        className: 'btn-dark'
+                      }
+                    },
+                    callback: function(roomName){
+                      if (roomName != null) {
+                        if (roomName.trim().length === 0 || roomName.length === 0) {
+                          bootbox.alert({
+                            message: "Please enter a name!",
+                            size: 'small',
+                            locale: 'en',
+                            centerVertical: true,
+                            closeButton: false,
+                            buttons: {
+                              ok: {
+                                className: 'btn-dark'
+                              }
+                            },
+                            callback: function () {
+                              $('#create-match').trigger('click');
+                            }
+                          });
+                        } else {
+                          $.ajax({
+                            type: "POST",
+                            url: 'https://dealsbe.com/api/createRoom',
+                            data: {
+                              'room-code': '66fb2b9f1e11d41c38e199ddc8c1416b',
+                              'room-name': roomName,
+                              'FEN': 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
+                              'pass': '',
+                              'host_id': ''
+                            },
+                            dataType: 'text'
+                          }).done(function() {
+                            bootbox.alert({
+                              message: "You have created the room!",
+                              size: 'small',
+                              centerVertical: true,
+                              closeButton: false,
+                              buttons: {
+                                ok: {
+                                  className: 'btn-dark',
+                                  label: 'Oki'
+                                }
+                              },
+                              callback: function(){
+                                window.location.href = 'https://dealsbe.com/room' + '/' + '66fb2b9f1e11d41c38e199ddc8c1416b';
+                              }
+                            });
+                          });
+                        }
+                      }
+                    }
+                  });
+                } else if (data == 'yes') {
+                  bootbox.alert({
+                    message: "The room code is duplicated. Please try again!",
+                    size: 'small',
+                    centerVertical: true,
+                    closeButton: false,
+                    buttons: {
+                      ok: {
+                        className: 'btn-dark',
+                        label: 'Oki'
+                      }
+                    },
+                    callback: function(){
+                      setTimeout(() => {
+                        location.reload();
+                      }, 500);
+                    }
+                  });
+                }
+              });
+            }
+            const ratio = $('#chess-board').height() / $('#chess-board').width();
+            function adjustBoard() {
+              const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+              width = ($(window).height() - 220) / ratio;
+              if ($(window).width() >= $(window).height() && $(window).height() < 576) {
+                width = ($(window).height() - 50) / ratio;
+              }
+              width = Math.min(width, $('header > .container').width());
+              height = width * ratio;
+              $('#chess-board').css({'width': width});
+              board.resize();
+            }
+            adjustBoard();
+            $(window).on('load resize', adjustBoard);
+            $(document).ready(adjustBoard);
+            $('#share-board').on('click', function(){
+              $(this).attr('href', $(this).attr('href') + '/' + game.fen());
+            });
+            </script>
+                      </div>
+        </div>
+      </div>
+      <div class="container-fluid about px-0 font-weight-bold text-center pb-5">
+  <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#GuideModal">
+    <i class="fad fa-info-circle"></i> Guideline
+  </button>
+</div>
+<div class="modal fade" id="GuideModal" tabindex="-1" role="dialog" aria-label="Guide" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content shadow-lg">
+      <div class="modal-header">
+        <h5 class="modal-title">Guideline</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>There are 4 options: Play alone, Play with AI, Play in room, and Set up the board</p>
+        <ol>
+          <li><u>Play alone:</u> Users press on the button <a target="_blank" href="https://dealsbe.com/play-alone">"PLAY ALONE"</a> on the front page and practice alone.</li>
+          <li><u>Play with AI:</u> Users play directly on the front page. There are 5 levels: <a target="_blank" href="https://dealsbe.com/newbie">Newbie</a>, <a target="_blank" href="https://dealsbe.com/easy">Easy</a>, <a target="_blank" href="https://dealsbe.com/normal">Normal</a>, <a target="_blank" href="https://dealsbe.com/hard">Hard</a>, and <a target="_blank" href="https://dealsbe.com/hardest">Hardest</a>.</li>
+          <li><u>Play in room:</u> Users press on the button "START", host a new room with random Room code, and create a password for you and your friend, also capable of Inviting friend to play by sending the link. Users can also access the page <a target="_blank" href="https://dealsbe.com/rooms">"Rooms"</a> to enter a hosted room. Users can choose White Side or Black Side, White moves first.</li>
+          <li><u>Set up the board:</u> Players press on the link <a target="_blank" href="https://dealsbe.com/set-up">"Set Up"</a>. In this option, players can arrange the chess pieces and press "CAPTURE THE BOARD" to challenge friends.</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>      <div class="container-fluid adsense px-0 border-top">
+  <div class="container mx-auto p-3">
+    <div class="row w-100 mx-auto">
+      <div class="mb-4 col-12">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- COVUA_res -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-3585118770961536"
+            data-ad-slot="8690024291"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+</div>    </main>
+    <footer>
+  <div class="container">
+    <div class="row p-5">
+      <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3 vcard">
+        <p>Contact email</p>
+        <a class="w-100 email" href="mailto:support@dealsbe.com">support@dealsbe.com</a>
+        <p class="mt-3"><i class="fal fa-copyright"></i> Copyright <a class="url fn" target="_blank" href="#">Dealsbe</a></p>
+      </div>
+      <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+        <ul class="list-unstyled">
+          <li>
+            <a class="home" href="https://dealsbe.com"><i class="fal fa-home-lg-alt"></i> Home</a>
+          </li>
+          <li>
+            <a class="room" href="https://dealsbe.com/rooms"><i class="fal fa-th-list"></i> Rooms</a>
+          </li>
+          <li>
+            <a class="setup" href="https://dealsbe.com/puzzle"><i class="fal fa-puzzle-piece"></i> Puzzle</a>
+          </li>
+          <li>
+            <a class="about" href="https://dealsbe.com/about-us"><i class="fal fa-info-square"></i> About Us</a>
+          </li>
+          <li>
+            <a class="contact" href="https://dealsbe.com/contact-us"><i class="fal fa-envelope"></i> Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+        <p>Find us on social media</p>
+        <a class="w-100 mr-2 display-4" target="_blank" href="#"><i class="fab fa-facebook-square rounded"></i></a>
+        <a class="w-100 mr-2 display-4" target="_blank" href="#"><i class="fab fa-linkedin rounded"></i></a>
+      </div>
+      <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+        <p>Verified with HTML5</p>
+        <a title="Valid HTML 5" class="w-100 mr-2 display-4" target="_blank" href="https://validator.w3.org/check?uri=referer">
+          <i class="fab fa-html5"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="modal fade" id="AdBlockModal" tabindex="-1" role="dialog" aria-label="AdBlock" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content shadow-lg">
+      <div class="modal-header">
+        <h5 class="modal-title">AdBlock detected</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Sure, ad-blocking software does a great job at blocking ads, but it also blocks some useful and important features of our website. For the best possible site experience please take a moment to disable your AdBlocker.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="AdSenseModal" tabindex="-1" role="dialog" aria-label="AdSense" aria-hidden="true" data-backdrop="static" data-keyboard="false" data-url="">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content shadow-lg">
+      <div class="modal-header">
+        <h5 class="modal-title"><i class="far fa-ad"></i> Advertisement</h5>
+      </div>
+      <div class="modal-body text-center">
+        <!-- CHESS_300x300 -->
+        <ins class="adsbygoogle"
+            style="display:inline-block;width:300px;height:300px"
+            data-ad-client="ca-pub-3585118770961536"
+            data-ad-slot="8859288878"></ins>
+        <a class="aff-link" href="https://game.cotuong.top" target="_blank" data-toggle="tooltip" data-placement="top" title="Game"><img alt="Game" src="https://dealsbe.com/img/games.jpg"  width="300" height="300" ></a>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="modal-footer">
+        <button id="adModalCloseBtn" type="button" class="btn btn-dark btn-lg disabled" data-dismiss="modal" data-toggle="tooltip" data-placement="top"><i class="fal fa-clock"></i> <span>2 seconds</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$('.menu-toggle').on('click', function(){
+  if ($(this).hasClass('open')) {
+    $(this).removeClass('open').removeClass('close').addClass('close');
+  } else if ($(this).hasClass('close')) {
+    $(this).removeClass('close').removeClass('open').addClass('open');
+  }
+});
+$('.showPromotion').each(function(e){
+  $(this).on('click auxclick', function(e){
+    if (removeTrailingSlash($(this).attr('href')) !== removeTrailingSlash(window.location.href)) {
+      e.preventDefault();
+      $('#AdSenseModal').attr('data-url', $(this).attr('href')).modal('show');
+    } else {
+      window.location.href = $(this).attr('href');
+    }
+  });
+});
+$('#AdSenseModal').on('show.bs.modal', function(){
+  if (!$('#AdSenseModal').find('ins').attr('data-ad-status')) {
+    $('#AdSenseModal').find('ins').attr('data-ad-status', 'unfilled');
+  }
+}).on('shown.bs.modal', function() {
+  $('#adModalCloseBtn').attr('data-original-title', $(this).attr('data-url')).css('cursor', 'wait').prop('disabled', true);
+  $('#adModalCloseBtn').tooltip();
+  let i = 2;
+  let timer = setInterval(function() {
+    console.log(--i);
+    $('#adModalCloseBtn').find('span').text(i + ' second' + (i > 1 ? 's': ''));
+    if (i === -1) {
+      $('#adModalCloseBtn').find('i').removeClass('fa-clock').addClass('fa-link');
+      $('#adModalCloseBtn').css('cursor', 'pointer').removeClass('disabled').removeAttr('disabled').addClass('pulse-red').find('span').text('Redirect now');
+      clearInterval(timer);
+    }
+  }, 1000);
+}).on('hidden.bs.modal', function() {
+  $('#adModalCloseBtn').find('span').text('2 seconds');
+  window.open($(this).attr('data-url'), '_blank');
+});
+// Function called if AdBlock is not detected
+function adBlockNotDetected() {
+//	alert('AdBlock is not enabled');
+}
+// Function called if AdBlock is detected
+function adBlockDetected() {
+	$('#AdBlockModal').modal();
+}
+$('#AdSenseModal').on('hide.bs.modal', function(e) {
+  window.location.href = $(this).attr('data-url');
+})
+// detectAdblock(function(isUsingAdblock) {
+//   if (isUsingAdblock === true) {
+//     adBlockDetected();
+//   }
+// });
+</script>
+<a href="#0" class="cd-top js-cd-top rounded" style="background-image: url(https://dealsbe.com/img/cd-top-arrow.svg);">Top</a>
+<script src="https://dealsbe.com/js/to-top.js"></script>
+  </body>
+</html>
